@@ -1,7 +1,7 @@
 #include "esp_camera.h"
 #include <WiFi.h>
 
-const char* ssid = "YOUR_WIFI";
+const char* ssid = "YOUR_WIFI"; ## Wifi Details
 const char* password = "YOUR_PASSWORD";
 
 void startCameraServer();
@@ -72,8 +72,8 @@ void setup() {
   startCameraServer();
 
   Serial.println("Camera Ready");
-  Serial.print("Open: http://");
-  Serial.println(WiFi.localIP());
+  Serial.print("Open: http://");  ## Hosting Link
+  Serial.println(WiFi.localIP()); ## Wifi IP
 }
 
 void loop() {}
