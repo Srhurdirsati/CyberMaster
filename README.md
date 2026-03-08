@@ -5,7 +5,26 @@ Started with schemtic and went all up to Routing within 12 Hours
 
 ## BOM 
 
-<img width="661" height="332" alt="image" src="https://github.com/user-attachments/assets/24264b6a-4776-40e2-92d0-f29e46d4cc9a" />
+## Bill of Materials (BOM)
+
+| # | Component | Description / Specification | LCSC Part Number |
+|---|-----------|----------------------------|------------------|
+| 1 | MCU Module | ESP32-S3-WROOM-1-N8R8 | C2913201 |
+| 2 | FPC Connector | 24-pin, 0.5 mm pitch, bottom contact | C284537 |
+| 3 | Pin Header | 1×8, 2.54 mm female header | C124381 |
+| 4 | I2C Header | 1×4, 2.54 mm female | C124381 |
+| 5 | GPIO Header A | 1×10 female, 2.54 mm | C124381 |
+| 6 | GPIO Header B | 1×10 female, 2.54 mm | C124381 |
+| 7 | Li-Po Charger IC | TP4056 | C382139 |
+| 8 | 3.3V LDO Regulator | AP2112K-3.3 | C51118 |
+| 9 | Battery Connector | JST-PH-2P | C157932 |
+| 10 | USB-C Connector | USB-C 16-pin SMD | C2927040 |
+| 11 | Power LED | Red LED 0603 | C2286 |
+| 12 | LED Resistor | 330 Ω 0603 | C23138 |
+| 13 | Reset Button | SMD tact switch | C318884 |
+| 14 | Boot Button | SMD tact switch | C318884 |
+| 15 | Decoupling Capacitor | 0.1 µF 0603 (×6) | — |
+| 16 | Bulk Capacitor | 10 µF 0805 (×3) | — |
 
 ## Features
 > All 17 GPIOs are usable
